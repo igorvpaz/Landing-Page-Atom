@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atom - Soluções Automatizadas</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+</head>
+<body>
+    
+  <!-- Cabeçalho -->
+
+    <header>
+        <div class="container">
+            
+            <nav>
+                <h1 class="logo">ATOM</h1>
+                <ul>
+                    <li><a href="#about">Sobre</a></li>
+                    <li><a href="#services">Serviços</a></li>
+                    <li><a href="#testimonials">Testemunhos</a></li>
+                    <li><a href="#contact">Contato</a></li>
+                </ul>
+                <a href="https://www.whatsapp.com/?lang=pt_BR" class="cta-button">Entre em Contato</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Sliders -->
+
+    <div class="sections">
+        <div class="swiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="assets/banner1.jpg" alt="Slide 1">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/banner2.jpg" alt="Slide 2">
+                </div>
+                <div class="swiper-slide">
+                    <img src="assets/banner3.jpg" alt="Slide 3">
+                </div>
+            </div>
+            <div class="swiper-pagination"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+
+    <!-- Seções -->
+    <!--about-->
+    <section class="sections" id="about">
+        <div class="container">
+            <h2>Sobre Nós</h2>
+            <p>Na Atom, somos apaixonados por inovação e tecnologia! Especializamos-nos em criar soluções de automação inteligentes que utilizam o poder da inteligência artificial para transformar a forma como as empresas operam. Nosso objetivo é simples: ajudar você a oferecer um atendimento mais eficiente e personalizado, reduzir custos operacionais e otimizar processos internos. Com a Atom, sua empresa dá um passo à frente, conectando-se ao futuro da automação e alcançando resultados extraordinários. 🚀</p>
+        </div>
+    </section>
+    <!--services-->
+    <section class="sections" id="services">
+      <div class="container">
+          <h2>Serviços</h2>
+          <p>Na Atom, acreditamos que a tecnologia pode ser a chave para desbloquear todo o potencial da sua empresa. Por isso, oferecemos serviços completos de automação e criação de chatbots inteligentes que revolucionam a forma como você se conecta com seus clientes.
+
+            Nossas soluções são desenhadas sob medida para atuar em plataformas estratégicas, como WhatsApp e Instagram, garantindo um atendimento ágil, dinâmico e disponível 24/7. Imagine seus clientes recebendo respostas rápidas, agendando compromissos automaticamente ou obtendo suporte instantâneo, tudo com a simplicidade e a eficiência que a inteligência artificial pode proporcionar.
+            
+            Além de melhorar a experiência do cliente, nossos serviços ajudam sua empresa a reduzir custos operacionais, otimizar processos e aumentar a produtividade. Desde pequenos negócios até grandes empresas, estamos aqui para transformar desafios em oportunidades e elevar sua marca a um novo patamar.
+            
+            Com a Atom, a inovação deixa de ser apenas uma tendência e se torna parte do seu dia a dia. Vamos juntos construir o futuro da automação e do atendimento! 🚀</p>
+      </div>
+  </section>
+  <!--testimonials-->
+  <section class="sections" id="testimonials">
+    <h2 class="testimonials-title">Testemunhos</h2>
+  </section>
+  <section class="sections">
+    <div class="container">
+      
+        <div data-aos="fade-up-left" class="depoimentos">
+          <img src="assets/pessoa1.jpg">  
+          <p><I>"Os chatbots da Atom revolucionaram nosso atendimento! Agora respondemos nossos clientes instantaneamente e vimos um aumento nas vendas. Simplesmente incrível!"</I></p>
+          <p>- De tal, Fulaninho</p>
+        </div>
+    </div>
+    <div class="container">
+        <div data-aos="fade-up-left" class="depoimentos">
+          <img src="assets/pessoa2.jpg">
+          <p><I>A automação da Atom tornou nossos agendamentos muito mais fáceis. Ganhamos tempo e nossos clientes estão mais satisfeitos do que nunca!"</I></p>
+          <p>- Siclano</p>
+        </div>
+    </div>
+    <div class="container">
+        <div data-aos="fade-up-left" class="depoimentos">
+          <img src="assets/pessoa3.jpg">
+          <p><I>O chatbot da Atom trouxe eficiência e profissionalismo ao meu negócio. Meus clientes adoram a rapidez no atendimento!"</I></p>
+          <p>- Beltrano</p>
+        </div>
+    </div>
+</section>
+
+    <!--contact-->
+    <section class="py-5 bg-dark text-white">
+        <div class="container">
+            <h2 id="contact" class="text-center mb-4">Entre em Contato Conosco</h2>
+            <p class="text-center mb-5 text-white">Preencha o formulário abaixo e entraremos em contato o mais breve possível!</p>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-md-10">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Nome</label>
+                            <input type="text" class="form-control" id="name" placeholder="Seu nome" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="email" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Seu e-mail" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="subject" class="form-label">Assunto</label>
+                            <input type="text" class="form-control" id="subject" placeholder="Assunto da mensagem" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="message" class="form-label">Mensagem</label>
+                            <textarea class="form-control" id="message" rows="5" placeholder="Sua mensagem" required></textarea>
+                        </div>
+
+                        <div class="d-grid">
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--encerra seções e inicia footer-->
+
+    <footer>
+        <div class="sections">
+            <div class="container">
+                <p>&copy; 2024 Atom. Todos os direitos reservados.</p>
+                <p><a href="#">Termos de Uso</a></p>
+                <a href="#">Política de Privacidade</a>
+             </div>
+             <div class="container">
+                <p>Nos acompanhe nas redes:</p>
+                <p><a href="#">@InstagramDaAtom</a></p>
+                <p><a href="#">Linkedin.Atom.br</a></p>
+             </div>
+            </div>
+    </footer>
+
+    <!--endereços de bibliotecas usadas-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="module" src="script.js"></script>
+</body>
+</html>
